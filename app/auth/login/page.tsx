@@ -66,14 +66,12 @@ export default function LoginPage() {
             Forgot Password?
           </a>
           <p className="text-gray-600 text-sm">
-            Don't have an account?{' '}
-            <a 
-              href="#" 
-              className="text-green-700 hover:text-green-800 hover:underline"
-            >
-              Create Account
-            </a>
-          </p>
+  Don&rsquo;t have an account?{' '}
+  <a href="#" className="text-green-700 hover:text-green-800 hover:underline">
+    Create Account
+  </a>
+</p>
+
         </div>
       </div>
     </div>

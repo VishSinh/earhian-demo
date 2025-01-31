@@ -51,7 +51,7 @@ const generateDummyData = (): TeacherAttendance[] => {
 
 export default function OrientationProgram() {
     const [selectedSchool, setSelectedSchool] = useState<string>("")
-    const [selectedDate, setSelectedDate] = useState<Date | undefined>(new Date())
+    // const [selectedDate, setSelectedDate] = useState<Date | undefined>(new Date())
     const [currentPage, setCurrentPage] = useState(1)
     const itemsPerPage = 10
     const [attendanceData, setAttendanceData] = useState<TeacherAttendance[]>(generateDummyData())
@@ -112,7 +112,7 @@ export default function OrientationProgram() {
                 {Array.from({ length: totalPages }, (_, i) => i + 1).map(page => (
                     <Button
                         key={page}
-                        variant={currentPage === page ? "solid" : "outline"}
+                        // variant={currentPage === page ? "solid" : "outline"}
                         size="sm"
                         className={`${currentPage === page ? 'bg-green-600 text-white' : 'border-green-200 text-green-700'} hover:bg-green-100`}
                         onClick={() => setCurrentPage(page)}

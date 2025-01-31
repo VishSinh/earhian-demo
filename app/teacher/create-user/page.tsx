@@ -2,7 +2,7 @@
 "use client";
 import { Button } from "@/components/ui/button";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
-import { Edit, PlusCircle, Trash2, Save, X } from "lucide-react";
+import { Edit, PlusCircle, Trash2, Save} from "lucide-react";
 import { useState } from "react";
 import {
   Select,
